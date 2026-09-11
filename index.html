@@ -1,1 +1,210 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1.0'><title>OrientalEssence - Premium Factory Direct Procurement</title><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f9f7f4;color:#1a1a1a}.hd{background:#fff;border-bottom:1px solid #e5e2dc;padding:0 0}.hd .w{max-width:1280px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:64px}.lg{font-size:1.4rem;font-weight:700;color:#2d4a3e}.lg span{color:#c4704f}.nav{display:flex;gap:24px;font-size:.9rem}.nav a{color:#4a4a4a;text-decoration:none}.nav a:hover{color:#c4704f}.hd-r{display:flex;gap:12px;align-items:center}.sr{background:#f3f0eb;border:1px solid #e5e2dc;border-radius:6px;padding:6px 12px;font-size:.85rem;width:180px}.ct{background:#2d4a3e;color:#fff;border:none;border-radius:6px;padding:8px 16px;font-size:.85rem;cursor:pointer}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="OrientalEssence connects global buyers with verified factories and dependable wholesale sourcing.">
+<title>OrientalEssence | Factory Direct Sourcing</title>
+<style>
+:root{--ink:#18352d;--accent:#bd6748;--paper:#f7f3ec;--line:#e4ddd3;--muted:#6f746f;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:#1d211f;font-family:"Segoe UI",Arial,sans-serif;line-height:1.55}
+a{color:inherit}
+.wrap{width:min(1180px,calc(100% - 40px));margin:0 auto}
+.header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.header-inner{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{color:var(--ink);font-size:1.35rem;font-weight:800;text-decoration:none;letter-spacing:0}
+.brand span{color:var(--accent)}
+.nav{display:flex;gap:24px}
+.nav a{text-decoration:none;color:#4f5652;font-size:.92rem}
+.nav a:hover{color:var(--accent)}
+.actions{display:flex;align-items:center;gap:10px}
+.search{width:180px;padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:#f7f4ee;color:#1d211f}
+.button,.button-outline{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 18px;border-radius:6px;text-decoration:none;font-weight:700;font-size:.9rem}
+.button{border:1px solid var(--ink);background:var(--ink);color:#fff}
+.button-outline{border:1px solid var(--ink);background:transparent;color:var(--ink)}
+.hero{padding:88px 0 76px;background:linear-gradient(120deg,#fff 0%,#fff 60%,#efe8de 100%)}
+.eyebrow{margin:0 0 14px;color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.hero h1{max-width:760px;margin:0;color:var(--ink);font-size:clamp(2.4rem,6vw,4.9rem);line-height:1.02;letter-spacing:0}
+.hero p{max-width:640px;margin:22px 0 30px;color:var(--muted);font-size:1.08rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.trust{background:var(--ink);color:#fff}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#486057}
+.trust-item{padding:22px;background:var(--ink);text-align:center;font-size:.92rem}
+.section{padding:72px 0}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:28px}
+.section h2{margin:0;color:var(--ink);font-size:clamp(1.7rem,3vw,2.4rem)}
+.section-head p{max-width:520px;margin:0;color:var(--muted)}
+.categories{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.category{padding:22px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;text-align:center;text-decoration:none;font-weight:700}
+.category:hover{border-color:var(--accent);transform:translateY(-2px)}
+.category b{display:block;margin-bottom:8px;color:var(--accent);font-size:1.55rem}
+.products{background:#fff}
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.product{overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#fff}
+.product img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#ece6dd}
+.product-body{padding:17px}
+.product h3{margin:0 0 7px;color:var(--ink);font-size:1rem}
+.product p{margin:0 0 13px;color:var(--muted);font-size:.86rem}
+.price{color:var(--accent);font-weight:800}
+.old{margin-left:8px;color:#9b9d9b;font-size:.85rem;font-weight:400;text-decoration:line-through}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.service{padding:26px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.service b{display:block;margin-bottom:8px;color:var(--ink);font-size:1.05rem}
+.service p{margin:0;color:var(--muted)}
+.cta{padding:56px 0;background:var(--ink);color:#fff}
+.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:28px}
+.cta h2{margin:0;color:#fff}
+.cta p{max-width:620px;margin:10px 0 0;color:#d7e1dd}
+.footer{padding:28px 0;background:#10251f;color:#bac8c3;font-size:.88rem}
+.footer-inner{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:900px){
+  .nav{display:none}
+  .categories{grid-template-columns:repeat(3,1fr)}
+  .product-grid{grid-template-columns:repeat(2,1fr)}
+  .trust-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:620px){
+  .wrap{width:min(100% - 28px,1180px)}
+  .search{display:none}
+  .hero{padding:64px 0 52px}
+  .section{padding:52px 0}
+  .section-head,.cta-inner,.footer-inner{align-items:flex-start;flex-direction:column}
+  .categories{grid-template-columns:repeat(2,1fr)}
+  .product-grid,.services,.trust-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">Oriental<span>Essence</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#categories">Categories</a>
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="actions">
+      <input class="search" type="search" placeholder="Search products" aria-label="Search products">
+      <a class="button" href="#products">Browse catalog</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Verified global sourcing</p>
+      <h1>Premium sourcing. Factory direct.</h1>
+      <p>Connect with dependable manufacturers, compare verified products, and simplify wholesale purchasing from one place.</p>
+      <div class="hero-actions">
+        <a class="button" href="#products">Explore products</a>
+        <a class="button-outline" href="#contact">Request a quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust" aria-label="Service highlights">
+    <div class="wrap trust-grid">
+      <div class="trust-item">Verified suppliers</div>
+      <div class="trust-item">Factory-direct pricing</div>
+      <div class="trust-item">Flexible order volumes</div>
+      <div class="trust-item">Worldwide delivery support</div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Browse by category</h2>
+        <p>Start with the product groups buyers ask for most often.</p>
+      </div>
+      <div class="categories">
+        <a class="category" href="#products"><b>01</b>Electronics</a>
+        <a class="category" href="#products"><b>02</b>Industrial</a>
+        <a class="category" href="#products"><b>03</b>Tools</a>
+        <a class="category" href="#products"><b>04</b>Packaging</a>
+        <a class="category" href="#products"><b>05</b>Home goods</a>
+        <a class="category" href="#products"><b>06</b>Custom parts</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section products" id="products">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Featured products</h2>
+        <p>Representative wholesale products ready for supplier matching and customization.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Laptop computer">
+          <div class="product-body">
+            <h3>Business Laptop Series</h3>
+            <p>Configurable processors, memory, and deployment options.</p>
+            <div><span class="price">$429</span><span class="old">$499</span></div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Professional hand tools">
+          <div class="product-body">
+            <h3>Professional Tool Set</h3>
+            <p>Durable tools for maintenance, installation, and assembly.</p>
+            <div><span class="price">$86</span><span class="old">$99</span></div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Industrial equipment">
+          <div class="product-body">
+            <h3>Industrial Control Unit</h3>
+            <p>Reliable components for automated production environments.</p>
+            <div><span class="price">$318</span></div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Warehouse and packaging">
+          <div class="product-body">
+            <h3>Export Packaging Kit</h3>
+            <p>Protective packing materials for international shipments.</p>
+            <div><span class="price">$42</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>From inquiry to delivery</h2>
+        <p>A clear sourcing workflow keeps cost, quality, and timing under control.</p>
+      </div>
+      <div class="services">
+        <div class="service"><b>Supplier matching</b><p>Shortlists are matched to product specifications, order volume, and target market.</p></div>
+        <div class="service"><b>Sample coordination</b><p>Arrange product samples and quality checks before committing to production.</p></div>
+        <div class="service"><b>Shipping support</b><p>Coordinate export packing and delivery details with your freight forwarder.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="wrap cta-inner">
+      <div>
+        <h2>Have a product list?</h2>
+        <p>Send your specifications and target quantity. We will help organize the next sourcing step.</p>
+      </div>
+      <a class="button" href="mailto:1049388745@qq.com">Contact us</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>OrientalEssence</span>
+    <span>Factory-direct sourcing for global buyers.</span>
+  </div>
+</footer>
+</body>
+</html>
