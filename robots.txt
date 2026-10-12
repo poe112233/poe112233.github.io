@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ores.cc/sitemap.xml
+Sitemap: https://kakobuy.ores.cc/sitemap.xml
