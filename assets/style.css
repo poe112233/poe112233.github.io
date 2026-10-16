@@ -464,7 +464,7 @@ body {
   }
 }
 
-/* --- 渠道详情页附加样式（新增，未修改上方任何原有规则） --- */
+/* --- 渠道详情页 / 多语言 / 社交（新增，未改动上方任何原有规则） --- */
 .brand-name { color: inherit; text-decoration: none; }
 .channel-card h3 a { color: inherit; text-decoration: none; }
 .channel-card h3 a:hover { color: var(--gold-deep); }
@@ -481,30 +481,70 @@ body {
 .breadcrumb a { color: var(--muted); text-decoration: none; }
 .breadcrumb a:hover { color: var(--gold-deep); }
 .breadcrumb span[aria-current] { color: var(--text); }
-.steps {
-  list-style: none;
-  counter-reset: step;
-  display: grid;
-  gap: 14px;
-  margin: 22px 0 0;
-  padding: 0;
-}
-.steps li {
-  counter-increment: step;
-  position: relative;
-  padding-left: 46px;
-  line-height: 1.7;
-}
+.steps { list-style: none; counter-reset: step; display: grid; gap: 14px; margin: 22px 0 0; padding: 0; }
+.steps li { counter-increment: step; position: relative; padding-left: 46px; line-height: 1.7; }
 .steps li::before {
   content: counter(step, decimal-leading-zero);
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: absolute; left: 0; top: 0;
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.15rem;
-  color: var(--gold-deep);
+  font-size: 1.15rem; color: var(--gold-deep);
 }
 .faq-list { display: grid; gap: 26px; margin-top: 22px; }
 .faq-item { border-left: 2px solid var(--line); padding-left: 20px; }
 .faq-q { margin: 0 0 8px; font-size: 1.02rem; }
 .faq-a { margin: 0; color: var(--muted); line-height: 1.75; }
+
+/* 语言切换下拉 */
+.lang-switch { position: relative; }
+.lang-switch > summary {
+  cursor: pointer; list-style: none;
+  font-size: 13px; font-weight: 600; color: var(--gold-deep);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: 5px 12px; transition: border-color 0.15s ease;
+}
+.lang-switch > summary::-webkit-details-marker { display: none; }
+.lang-switch > summary:hover, .lang-switch[open] > summary { border-color: var(--gold-deep); }
+.lang-switch > ul {
+  position: absolute; right: 0; top: calc(100% + 8px); z-index: 30;
+  margin: 0; padding: 6px; list-style: none; min-width: 150px;
+  background: #fff; border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.lang-switch > ul a {
+  display: block; padding: 8px 12px; border-radius: 6px;
+  font-size: 14px; color: var(--text); text-decoration: none;
+}
+.lang-switch > ul a:hover, .lang-switch > ul a:focus { background: var(--paper-2); color: var(--gold-deep); }
+.lang-switch > ul a[aria-current="true"] { color: var(--gold-deep); font-weight: 600; }
+
+/* 社交渠道：单独一行，每个平台一张卡片带图标 */
+.social-grid {
+  display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px; margin: 32px 0 0; padding: 0; list-style: none;
+}
+.social-card {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  gap: 8px; height: 100%;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: #fff; padding: 24px 18px;
+  text-decoration: none; color: inherit;
+  box-shadow: 0 8px 20px rgba(20, 16, 10, 0.04);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.social-card:hover, .social-card:focus {
+  transform: translateY(-2px); border-color: var(--gold-deep);
+  box-shadow: 0 10px 24px rgba(20, 16, 10, 0.10);
+}
+.social-icon { width: 30px; height: 30px; color: var(--gold-deep); }
+.social-name {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 21px; font-weight: 600; color: var(--ink); line-height: 1.2;
+}
+.social-handle { font-size: 13px; color: var(--muted); word-break: break-word; }
+
+@media (max-width: 900px) {
+  .social-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .social-grid { grid-template-columns: 1fr; }
+}
