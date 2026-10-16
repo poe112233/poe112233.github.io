@@ -1,15 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kakobuy.ores.cc/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/"/>
   </url>
   <url>
-    <loc>https://kakobuy.ores.cc/zh</loc>
-    <lastmod>2026-10-12</lastmod>
+    <loc>https://kakobuy.ores.cc/zh/</loc>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/oopbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/oopbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/oopbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/oopbuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/zh/oopbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/oopbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/oopbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/oopbuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/kakobuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/kakobuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/kakobuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/kakobuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/zh/kakobuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/kakobuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/kakobuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/kakobuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/uidbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/uidbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/uidbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/uidbuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/zh/uidbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/uidbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/uidbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/uidbuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/hipobuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/hipobuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/hipobuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/hipobuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/zh/hipobuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/hipobuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/hipobuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/hipobuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/litbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/litbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/litbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/litbuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/zh/litbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/litbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/litbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/litbuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/boonbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/boonbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/boonbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/boonbuy/"/>
+  </url>
+  <url>
+    <loc>https://kakobuy.ores.cc/zh/boonbuy/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://kakobuy.ores.cc/boonbuy/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kakobuy.ores.cc/zh/boonbuy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://kakobuy.ores.cc/boonbuy/"/>
   </url>
 </urlset>
